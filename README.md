@@ -15,7 +15,7 @@ I normalized the data and then imported it into MySQL workbench, created the ERD
 
 Since my database contained a bunch of information of chess games, I wanted a way for the chess games to be visualized cleanly on a frontend platform. I used Flask paired with my EC2 instance to code up a frontend web application for the data. 
 
-Features:
+### Features:
 * Three scrollable tables to observe the databases and the relations
 * An interactive chessboard that displays any game that is clicked on the table with the game details, and two buttons to traverse through each move of the game
 * An input box for SQL queries to make observations regarding the data
